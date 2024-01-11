@@ -1,0 +1,62 @@
+:root {
+    --font-cm: 1rem;
+    --font-md: 1.5rem;
+    --font-lg: 2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: var(--font-lg);
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+section h2 {
+    font-size: var(--font-md);
+}
+
+section p {
+    font-size: var(--font-cm);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer h3 {
+    font-size: var(--font-md);
+}
+
+footer p {
+    font-size: var(
